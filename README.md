@@ -1,6 +1,3 @@
-# =======================
-# docs/README.md - Ana Dokümantasyon
-# =======================
 
 """
 # Expo-Humanoid İnteraktif Robotik Sunum Sistemi
@@ -251,28 +248,4 @@ pylint modules/
 mypy modules/
 ```
 
-## Katkıda Bulunma
-
-1. Fork oluşturun
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add amazing feature'`)
-4. Branch'i push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
-
-## İletişim
-
-- Proje Sahibi: [Your Name]
-- Email: your.email@example.com
-- Proje Linki: https://github.com/your-repo/expo-humanoid
-
-## Acknowledgments
-
-- Intel RealSense ekibi
-- Ultralytics YOLOv8 ekibi
-- OpenAI ekibi
-- PyQt5 geliştiricileri
 """
