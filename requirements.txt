@@ -1,0 +1,21 @@
+# =======================
+# requirements.txt
+# =======================
+
+"""
+PyQt5==5.15.9
+opencv-python==4.8.1.78
+pyrealsense2==2.55.1.6486
+ultralytics==8.0.196
+torch==2.0.1
+torchvision==0.15.2
+openai==0.28.1
+pyserial==3.5
+numpy==1.24.3
+psutil==5.9.5
+Pillow==10.0.0
+scipy==1.11.1
+matplotlib==3.7.2
+asyncio-mqtt==0.13.0
+pydantic==2.3.0
+"""
