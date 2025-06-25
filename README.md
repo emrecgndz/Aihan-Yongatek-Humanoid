@@ -1,4 +1,4 @@
-# Expo-Humanoid v1.0 - Tamamlanmış Sistem 🤖
+
 
 > **Intel RealSense D435i + YOLOv8 + 14 DOF Servo + OpenAI GPT-4o**  
 > **macOS Optimized • Production Ready • Fully Functional**
@@ -295,30 +295,3 @@ torch.cuda.empty_cache()  # GPU memory
 import gc
 gc.collect()
 ```
-
----
-
-## 🎯 Sonraki Adımlar
-
-1. **Kurulum Test**: `./setup_macos.sh` çalıştırın
-2. **Sistem Test**: `python quick_test.py` kontrol edin
-3. **Kamera Test**: `python test_camera_d435i.py` deneyin
-4. **Demo Çalıştır**: `python main.py --preset demo`
-5. **Konfigüre Et**: `data/configs/settings.json` düzenleyin
-
----
-
-## 🆘 Acil Durum
-
-```bash
-# Sistem çalışmıyorsa
-python main.py --camera mock --preset test --debug
-
-# Tamamen temizle ve yeniden başla
-rm -rf venv && ./setup_macos.sh
-
-# Yardım al
-python quick_test.py --report
-```
-
----
