@@ -1,21 +1,52 @@
 # =======================
-# requirements.txt
+# requirements.txt - Expo-Humanoid Bağımlılıkları
 # =======================
 
-"""
+# GUI Framework
 PyQt5==5.15.9
+
+# Computer Vision
 opencv-python==4.8.1.78
+numpy==1.24.3
+
+# Intel RealSense
 pyrealsense2==2.55.1.6486
-ultralytics==8.0.196
+
+# Machine Learning / AI
 torch==2.0.1
 torchvision==0.15.2
+ultralytics==8.0.196
+
+# OpenAI
 openai==0.28.1
+
+# Serial Communication
 pyserial==3.5
-numpy==1.24.3
+
+# System Monitoring
 psutil==5.9.5
+
+# Image Processing
 Pillow==10.0.0
+
+# Scientific Computing
 scipy==1.11.1
 matplotlib==3.7.2
-asyncio-mqtt==0.13.0
+
+# Utility Libraries
 pydantic==2.3.0
-"""
+
+# Optional: GPU monitoring (NVIDIA)
+# pynvml==11.5.0  # Uncomment if NVIDIA GPU available
+
+# Optional: Audio processing (for future TTS/STT)
+# sounddevice==0.4.6
+# speechrecognition==3.10.0
+
+# Development & Testing
+pytest==7.4.0  # For testing
+black==23.7.0  # Code formatting
+flake8==6.0.0  # Linting
+
+# macOS specific (if needed)
+# pyobjc-framework-Cocoa==9.2  # macOS integration
